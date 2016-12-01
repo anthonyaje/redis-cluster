@@ -1,3 +1,14 @@
+
+# redis-cluster
+---------------
+PROBLEM: 
+* ./redis-trib.rb create didn't work for clustering across multiple clusters in my experiments. 
+* ./redis-trib.rb only works for multiple redis instances in a single machine.
+
+SOLUTION: I added some scripts for making cluster.
+
+
+
 This README is just a fast *quick start* document. You can find more detailed documentation at http://redis.io.
 
 What is Redis?
@@ -189,4 +200,3 @@ Enjoy!
 
 [1]: https://github.com/antirez/redis/blob/unstable/COPYING
 [2]: https://github.com/antirez/redis/blob/unstable/CONTRIBUTING
-# redis-cluster
